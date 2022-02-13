@@ -1,0 +1,27 @@
+{
+  "name": "pohjola",
+  "version": "1.0.0",
+  "description": "A DnD campaign",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npx campaigner start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjaanila/pohjola.git"
+  },
+  "keywords": [
+    "DnD",
+    "campaign"
+  ],
+  "author": "Janne Jaanila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjaanila/pohjola/issues"
+  },
+  "homepage": "https://github.com/jjaanila/pohjola#readme",
+  "dependencies": {
+    "campaigner": "file:../campaigner/campaigner-1.1.0.tgz"
+  }
+}
