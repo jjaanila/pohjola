@@ -507,9 +507,10 @@
         finally continue through the last door on the right.
         <captioned-figure :path="ukonvasara" caption="Ukonvasara" width="15rem" />
 
-        <sub-area-title name="Bed Champer" />
-        This chamber is used by the cult to rest. There are three soldiers sleeping on the beds and one is
-        tending to his gear with his back turned towards the door.
+        <sub-area-title name="Bed Chamber" />
+        This chamber is used by the cult to rest. There are soldiers sleeping on the beds and one is tending
+        to his gear with his back turned towards the door.
+        <encounter :enemies="[{ name: 'Metsäläinen Soldier', quantity: 3 }]" />
         <sub-area-title name="Library" />
         An old library with plenty of old books and scrolls written with old runes.
         <encounter :enemies="[{ name: 'Metsäläinen Cleric', quantity: 2 }]" />
