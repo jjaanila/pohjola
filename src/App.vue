@@ -540,7 +540,7 @@
 
         <encounter
           :enemies="[{ name: 'Metsäläinen Cleric', quantity: 2 }]"
-          :allies="[{ name: 'commoner', quantity: 4 }]"
+          :allies="[{ name: 'Commoner', quantity: 4 }]"
         />
 
         <p>
@@ -571,7 +571,7 @@
             { name: 'Ahto Piki', quantity: 1 },
             { name: 'Metsäläinen Soldier', quantity: 1 },
           ]"
-          :allies="[{ name: 'commoner', quantity: 2 }]"
+          :allies="[{ name: 'Commoner', quantity: 2 }]"
         />
         <read-aloud>
           Letter says: Finally some true progress! Patience was again key to success just as we anticipated.
