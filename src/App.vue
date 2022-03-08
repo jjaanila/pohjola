@@ -5,8 +5,6 @@
         background: `url(${require('./img/paper.jpg')})`,
       }"
     >
-      <table-of-contents />
-      <party />
       <page>
         <campaign-title />
         <part-title name="Background" />
@@ -1595,12 +1593,13 @@
         Toivikki, Unaja, Unti, Utujoutsi, Valta, Valtari, Vihas, Vihavaino, Viljakka, Äijö, Äiniö.
       </page>
     </main>
-    <combat-overlay />
+    <Overlay />
   </div>
 </template>
 
 <script>
 import 'normalize.css'
+import Overlay from 'campaigner/src/components/Overlay.vue'
 import tursaansydan from './img/tursaansydan.png'
 import ukkoMonastery from './img/ukko_monastery.png'
 import paivatarShrine from './img/paivatar_shrine.png'
@@ -1617,6 +1616,9 @@ export default {
       ukonvasara,
       underdark,
     }
+  },
+  components: {
+    Overlay,
   },
   computed: {
     monsters() {
