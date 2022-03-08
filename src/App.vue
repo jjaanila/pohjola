@@ -399,7 +399,7 @@
           its branches. The man lays down the container. He puts his hands inside and brings up a freshly
           cleaned bear skull, still dripping last drops of blood. He sings again: "En pistä sua pihlajaan,
           Enkä raitaan rakenna, Vaan honkaan hyvään puuhun, johon tuuli käypi pohjoisesta ja etelästä ja
-          kaikilta tuulilta." Suddenly Vilja opens her mouth and sings with the same melody: "Tule, poikani
+          kaikilta tuulilta." Suddenly Kylli opens her mouth and sings with the same melody: "Tule, poikani
           polonen, Tuolla on ollut suuren suon sivulla, Ei oo tulta ei tulusta, Vara saaha valkijata" The man
           walks up to the tree and ties the fresh skull on the trunk. Suddenly the party realize that the
           ornaments are older skulls. Silently the crowd turns back and starts walking back to the farm.
@@ -1541,12 +1541,22 @@
           Inside the hut the party finds sketches of Tursaansydän and Loviatar's notes of her research. On a
           table is a translation of an old text that reads:
           <read-aloud>
+            The will of destruction was broken, Kapes cursed, moon brightly polished.<br />
+            Was buried in ground, under Ahti, out of eyes, ears and minds. <br />
+            But decisively not, as how can one desctruct desctruction without becoming one itself? <br />
+            Left for the future, votes were delivered.<br />
+
             One was for the enemy, to remind of their kinship.<br />
             One was for the dead, to remind of what cannot be reversed.<br />
             One was for the gods, to be guarded with tireless eyes.<br />
             And the last for the one, who started it all.<br />
           </read-aloud>
           <read-aloud>
+            Tahdon tuhon taittoi, kapeet kirosi, kuun kirkkahaksi kiillotti.<br />
+            Painoi rakoon maan, alle Ahdin, pois silmistä, korvista, mielistä. <br />
+            Vaan tohtinut ei harmia hävittää, tuhoa turmella. <br />
+            Päätännön manasi muille, antoi äänen suille sukujen. <br />
+
             Yks oli viholaiselle, pohjolan suvuille suen.<br />
             Yks oli vainajille, jätille jälkehen, Vipusen viemisiksi.<br />
             Yks oli jumalille, vartijoille väsymättömille.<br />
@@ -1582,6 +1592,15 @@
         horses and ride into sunset. Or they can fight their way to the river and hide underwater. Or escape
         with the current. Your call.
 
+        <chapter-title name="Giant's Grave" />
+        The tomb of Antero Vipunen, a great giant of the past. The tomb contains one piece of Tursaansydän.
+        The location of the tomb is known to archivists of the Sword. Religious advisors don't want people to
+        access tombs.
+
+        <chapter-title name="When Gods Beg" />
+        Messenger of Tapio delivers a message that Loviatar is trying to break into the hold where they keep
+        their piece of Tursaansydän.
+
         <part-title name="Monsters" />
         <monster v-for="monster in monsters" v-bind="monster" :key="monster.name" />
         <part-title name="Help" />
@@ -1593,7 +1612,7 @@
         Toivikki, Unaja, Unti, Utujoutsi, Valta, Valtari, Vihas, Vihavaino, Viljakka, Äijö, Äiniö.
       </page>
     </main>
-    <Overlay />
+    <Overlay :party="true" :tableOfContents="true" :dice="true" />
   </div>
 </template>
 
