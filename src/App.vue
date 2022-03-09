@@ -657,6 +657,16 @@
         <id-link id="monster-commoner" name="commoners" type="monster" /> is fixing the bridge while pressured
         by the soldiers. Soldiers should question the party and try to sort out what is the meaning of their
         trip. A decent bribe might help to get the party out of this situation.
+
+        <section-title name="Long Time No Story" />
+        On the way to the Gray Keep, the party finds a battleground on a meadow next to the road. There are
+        many corpses of soldiers and other creatures dressed in fur armor. One man sits on a horse with a
+        noose around his neck. The horse eats grass and pulls the man forward tightening the noose. The man
+        struggles against it but his hands are tied behind his back. The man is Veli Hopea who has been caught
+        by soldiers of the half-kingdom and was about to be hanged. However, a raid party of metsäläiset
+        ambushed them but left Veli hanging as a joke. (Thanks Ballad of Buster Scruggs for this idea) Veli
+        will come up with an explanation that it was metsäläiset who hung him there.
+
         <area-title name="The Gray Keep" />
         A great keep on the shore of western Pohjola. It is built on barren rocky land that continues all the
         way to the border of the north along the sea. This area has very little life but the sea offers plenty
