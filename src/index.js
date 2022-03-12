@@ -1,4 +1,4 @@
 import App from './App.vue'
-import { createCampaign } from 'campaigner';
+import { createCampaign } from 'campaigner'
 
-createCampaign(App)
+createCampaign(App).mount('#app')

@@ -1584,6 +1584,7 @@
       <part-title name="Monsters" />
       <monster v-for="monster in monsters" v-bind="monster" :key="monster.name" />
       <part-title name="Help" />
+      <chapter-title name="Help" />
       <section-title name="Finnish Names" />
       Some authentic ancient Finnish names if you need to build a new NPC: Aikamieli, Ano, Arpia, Ikitiera,
       Ikäheimo, Joutsimies, Jutikka, Jurva, Kaukovalta, Kekko, Kokko, Kostia, Kotarikko, Lalli, Leino, Lemmäs,
