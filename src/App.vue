@@ -1581,10 +1581,9 @@
       Messenger of Tapio delivers a message that Loviatar is trying to break into the hold where they keep
       their piece of Tursaansydän.
 
-      <part-title name="Monsters" />
+      <part-title name="Resources" />
+      <section-title name="Monsters" />
       <monster v-for="monster in monsters" v-bind="monster" :key="monster.name" />
-      <part-title name="Help" />
-      <chapter-title name="Help" />
       <section-title name="Finnish Names" />
       Some authentic ancient Finnish names if you need to build a new NPC: Aikamieli, Ano, Arpia, Ikitiera,
       Ikäheimo, Joutsimies, Jutikka, Jurva, Kaukovalta, Kekko, Kokko, Kostia, Kotarikko, Lalli, Leino, Lemmäs,
@@ -1598,7 +1597,6 @@
 
 <script>
 import 'normalize.css'
-import Overlay from 'campaigner/src/components/Overlay.vue'
 import tursaansydan from './img/tursaansydan.png'
 import ukkoMonastery from './img/ukko_monastery.png'
 import paivatarShrine from './img/paivatar_shrine.png'
@@ -1615,9 +1613,6 @@ export default {
       ukonvasara,
       underdark,
     }
-  },
-  components: {
-    Overlay,
   },
   computed: {
     monsters() {

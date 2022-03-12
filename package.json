@@ -21,7 +21,7 @@
     "url": "https://github.com/jjaanila/pohjola/issues"
   },
   "homepage": "https://github.com/jjaanila/pohjola#readme",
-  "dependencies": {
-    "campaigner": "file:../campaigner/campaigner-1.1.0.tgz"
+  "devDependencies": {
+    "campaigner": "^1.0.1"
   }
 }
