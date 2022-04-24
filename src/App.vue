@@ -1573,13 +1573,81 @@
       Your call.
 
       <chapter-title name="Giant's Grave" />
-      The tomb of Antero Vipunen, a great giant of the past. The tomb contains one piece of Tursaansydän. The
-      location of the tomb is known to archivists of the Sword. Religious advisors don't want people to access
-      tombs.
+      <p>
+        The tomb of Antero Vipunen, a great giant of the past. The tomb contains one piece of Tursaansydän.
+        The location of the tomb is known to archivists of the Sword. The party will also find the location at
+        Loviatar's hut in Kuurankaru. When arriving at the presumed location of the tomb, the party can't see
+        any constructions. They will however see smoke rising from the woods. A large part-giant man
+        <id-link id="monster-commoner" name="Suur-Äijö" /> sits by the fire. He is alarmed at first by the
+        visitors and will become angry if the party doesn't know where they are standing. He will angrily
+        explain that they are currently on the hand of Antero and they should show some respect. He will point
+        out five bulges on the ground that are 10m apart and explains that they are presumably the finger tips
+        of an ancient giant Antero Vipunen. He is part-giant and the effect of his ancient genes can be seen
+        in his body. Some of his body parts are disproportionately sized compared to others, especially his
+        hands. He considers Antero as a god, just like his ancestors have done and is on a pilgrimage to this
+        holy site. Äijö claims that he can hear Antero some times. His knowledge of the language of giants
+        isn't enough for him to understand much, but he is worried about his god. Antero has been repeating
+        the word "chaos" with a worrying voice recently.
+      </p>
+      <p>
+        Äijö can lead the party to other body parts of Antero. Above his heart, they will find an empty deep
+        hole on the ground. Clearly metsäläiset have already taken the part of Tursaansydän. If the party has
+        means to see invisible objects, they will see the foot of the huge spirit of Antero standing within
+        them. In that case, if they address Antero, he will explain them that
+        <id-link id="monster-joukahainen" /> has retrieved the part of Tursaansydän that was hidden in his
+        grave. Part of the magical object that will release chaos, imprisoned centuries ago. At this point,
+        the nothern druid and his death dogs could attack the party, if they haven't already. If the party can
+        assure Antero of their good intentions, Antero will also inform the party that "the guardian" has been
+        informed. He won't reveal who the guardian is. If the party asks about the pieces of Tursaansydän,
+        Antero will tell them to ask Tapio. The party may have seen the ritual at the house of Jurva Halla or
+        they could do a religion check for it. Antero may also hint them about a "table" via Äijö.
+      </p>
 
       <chapter-title name="When Gods Beg" />
-      Messenger of Tapio delivers a message that Loviatar is trying to break into the hold where they keep
-      their piece of Tursaansydän.
+      <p>
+        If the party prays for Tapio at Tapio's table, Tellervo, the daughter of Tapio, will appear to them as
+        a beautiful elf lady covered with leaves and roots, and requests to take the piece of heart to safety.
+        She explains that the heart is in Tapio's hall, close to Sotkala by the river. If the party doesn't
+        pray to Tapio, a messenger of Tapio delivers a message that Loviatar is trying to break into the hold
+        where the gods have hid their piece of Tursaansydän. The messenger or a deer summoned by Tellervo will
+        lead the party to Viper's rend river close to Sotkala. If the party prayed to Tapio, there will be a
+        stone in the shallow part of the river. The deer steps next to the stone and lowers its head. The
+        water begins to flow around the deer and reveals the bottom of the river. Simultaneously, humanoid
+        creatures with fins and tridents appear from the water and point their tridents at the deer. There is
+        a sudden voice of thunder that scares the creatures back and they lower their weapons. The deer
+        continues to focus and the thick web of aquatic plants and the ground diverge with the water exposing
+        a 10m deep dark hole.
+      </p>
+      <p>
+        If the party is delayed and Tapio's messenger appears, they will be late at the river. The hole is
+        open and dead sea creatures lay around the opening.
+      </p>
+      <p>
+        The party has to drop down the hole into an underground river to enter the dungeon. The dungeon
+        contains multiple challenges that the party has to overtake. If the challenges take a long time,
+        Joukahainen and metsäläiset may reach them and steal the part of Tursaansydän.
+      </p>
+      <p>
+        A message "Name me and so ye shall break me." before the next room. The floor of next room is full of
+        rocks, branches so stealth checks will have a disadvantage. On the other side is a clean patch of
+        floor in front of a new doorway. If a party member can make it to the other side without making a
+        sound, nothing happens. If the party makes a sound in the room, the walls will implode and bury the
+        people inside if they fail a DC 15 acrobatics check. The implosion will cause 6d10 damage minus their
+        AC to the affected characters and will delay the party significantly because they have to clear the
+        rubble.
+      </p>
+      <p>
+        The last room is a large stone hall with a <id-link name="Golem Guardian" type="monster" /> in the
+        middle of it. The piece of Tursaansydän is lodged in its chest and shines a faint purple light. The
+        party can kill the golem or dislodge the piece during battle with a DC 20 strength check.
+      </p>
+
+      <chapter-title name="Gates of Chaos" />
+      <p>
+        The grand battle between metsäläiset and the party and Väinämöinen. Loviatar, Joukahainen if alive,
+        and metsäläinens will arrive to the Lake Iänlampi to release Perkele from its prison. The party has
+        prepared with Väinämöinen and should be ready for a big battle.
+      </p>
 
       <part-title name="Resources" />
       <section-title name="Monsters" />
