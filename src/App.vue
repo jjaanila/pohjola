@@ -1594,29 +1594,34 @@
         hole on the ground. Clearly metsäläiset have already taken the part of Tursaansydän. If the party has
         means to see invisible objects, they will see the foot of the huge spirit of Antero standing within
         them. In that case, if they address Antero, he will explain them that
-        <id-link id="monster-joukahainen" /> has retrieved the part of Tursaansydän that was hidden in his
-        grave. Part of the magical object that will release chaos, imprisoned centuries ago. At this point,
-        the nothern druid and his death dogs could attack the party, if they haven't already. If the party can
-        assure Antero of their good intentions, Antero will also inform the party that "the guardian" has been
-        informed. He won't reveal who the guardian is. If the party asks about the pieces of Tursaansydän,
-        Antero will tell them to ask Tapio. The party may have seen the ritual at the house of Jurva Halla or
-        they could do a religion check for it. Antero may also hint them about a "table" via Äijö.
+        <id-link name="Joukahainen" type="monster" /> has retrieved the part of Tursaansydän that was hidden
+        in his grave. Part of the magical object that will release chaos, imprisoned centuries ago. At this
+        point, the nothern druid and his death dogs could attack the party, if they haven't already. If the
+        party can assure Antero of their good intentions, Antero will also inform the party that "the
+        guardian" has been informed. He won't reveal who the guardian is. If the party asks about the pieces
+        of Tursaansydän, Antero will tell them to ask Tapio. The party may have seen the ritual at the house
+        of Jurva Halla or they could do a religion check for it. Antero may also hint them about a "table" via
+        Äijö.
       </p>
 
       <chapter-title name="When Gods Beg" />
       <p>
         If the party prays for Tapio at Tapio's table, Tellervo, the daughter of Tapio, will appear to them as
         a beautiful elf lady covered with leaves and roots, and requests to take the piece of heart to safety.
-        She explains that the heart is in Tapio's hall, close to Sotkala by the river. If the party doesn't
-        pray to Tapio, a messenger of Tapio delivers a message that Loviatar is trying to break into the hold
-        where the gods have hid their piece of Tursaansydän. The messenger or a deer summoned by Tellervo will
-        lead the party to Viper's rend river close to Sotkala. If the party prayed to Tapio, there will be a
-        stone in the shallow part of the river. The deer steps next to the stone and lowers its head. The
-        water begins to flow around the deer and reveals the bottom of the river. Simultaneously, humanoid
-        creatures with fins and tridents appear from the water and point their tridents at the deer. There is
-        a sudden voice of thunder that scares the creatures back and they lower their weapons. The deer
-        continues to focus and the thick web of aquatic plants and the ground diverge with the water exposing
-        a 10m deep dark hole.
+        She explains that the heart is in Tapio's hall, close to Sotkala by the river. The gods won't be able
+        to help them, since they protected the place from themselves. They may only open the door to mortals.
+        If the party doesn't pray to Tapio, a messenger of Tapio delivers a message that Loviatar is trying to
+        break into the hold where the gods have hid their piece of Tursaansydän. The messenger or a deer
+        summoned by Tellervo will lead the party to Viper's rend river close to Sotkala.
+      </p>
+      <section-title name="Secured by Gods" />
+      <p>
+        If the party prayed to Tapio, there will be a stone in the shallow part of the river. The deer steps
+        next to the stone and lowers its head. The water begins to flow around the deer and reveals the bottom
+        of the river. Simultaneously, humanoid creatures with fins and tridents appear from the water and
+        point their tridents at the deer. There is a sudden voice of thunder that scares the creatures back
+        and they lower their weapons. The deer continues to focus and the thick web of aquatic plants and the
+        ground diverge with the water exposing a 10m deep dark hole.
       </p>
       <p>
         If the party is delayed and Tapio's messenger appears, they will be late at the river. The hole is
@@ -1628,27 +1633,63 @@
         Joukahainen and metsäläiset may reach them and steal the part of Tursaansydän.
       </p>
       <p>
-        A message "Name me and so ye shall break me." before the next room. The floor of next room is full of
-        rocks, branches so stealth checks will have a disadvantage. On the other side is a clean patch of
-        floor in front of a new doorway. If a party member can make it to the other side without making a
-        sound, nothing happens. If the party makes a sound in the room, the walls will implode and bury the
-        people inside if they fail a DC 15 acrobatics check. The implosion will cause 6d10 damage minus their
-        AC to the affected characters and will delay the party significantly because they have to clear the
-        rubble.
+        The party arrives to a room with a single open stone doorway. A message "Name me and so ye shall break
+        me." is written on top of it with blood. The floor of next room is full of rocks, branches so stealth
+        checks will have a disadvantage. On the other side is a clean patch of floor in front of a new
+        doorway. If a party member can make it to the other side without making a sound, nothing happens. If
+        the party makes a sound in the room, the walls will implode and bury the people inside if they fail a
+        DC 15 acrobatics check. The implosion will cause 6d10 damage minus their AC to the affected characters
+        and will delay the party significantly because they have to clear the rubble.
+      </p>
+      <p>
+        The second room is a small one with a single doorway, but the doorway is shut with a stone wall. On
+        the door is a carving of the shape of Tursaansydän. The party hears a faint woman's voice asking:
+        "What do you seek?", "Mitä etsit?". When the party says "Tursaansydän" aloud, the doorway opens
+        revealing the last room. The lady answers "You have found it".
       </p>
       <p>
         The last room is a large stone hall with a <id-link name="Golem Guardian" type="monster" /> in the
-        middle of it. The piece of Tursaansydän is lodged in its chest and shines a faint purple light. The
-        party can kill the golem or dislodge the piece during battle with a DC 20 strength check.
+        middle of it. The piece of Tursaansydän is lodged in its chest and shines a faint purple light. It
+        will attack when the door opens. The party can kill the golem or dislodge the piece during battle with
+        a DC 20 strength check. If the piece is ripped off, the golem dies. If the Golem is too hard for the
+        party, maybe Joukahainen arrives at the right moment and stirs the pot?
       </p>
-
-      <chapter-title name="Gates of Chaos" />
+      <p>
+        If the party manages to get the part of Tursaansydän in their hands, the spell that protected the
+        dungeon dispells and the gods are free to interfere in the fight. Ahti may flood the tunnel and Tapio
+        may grow it full of roots, even break a way to the surface for the party to escape. Ukko may shake the
+        grounds with violent thunder or raise a powerful wind.
+      </p>
+      <p>
+        After the fight, regardless of the outcome, the party should be approached by Antero. He delivers a
+        message from "the guardian" that the party has to travel to Lake Iänlampi. He will not elaborate why,
+        but will let the guardian explain.
+      </p>
+      <chapter-title name="At The Gates of Chaos" />
+      <p>
+        At Lake Iänlampi, when the party arrives to the shore, they will see a medium sized lake with a small
+        island in the middle. They see no-one and the nature is eerily quiet. The lake has little to no
+        vegetation and there are no birds or other animals. After a short while, an old man
+        <id-link name="Väinämöinen" type="monster" /> emerges from the water. He walks slowly to the party and
+        explains calmly how metsäläinens are close to their goal of releasing Perkele. Loviatar, the
+        descendant of Louhi doesn't understand what she is doing and has misunderstood her ancestor's will.
+        Väinämöinen's brother Joukahainen is still bitter and hungry for status of the greatest poet singer.
+        Joukahainen cares little about the consequences and Loviatar doesn't understand them. Väinämöinen is
+        unable to explain what chaos means, because it may lead to anything. The world of chaos is full of
+        what one can least expect. It fills the minds of creatures with confusion, breaks the natural cycles
+        and shakes the foundations of this world. "If I explain you what chaos is, it will be something
+        different when you experience it."
+      </p>
+      <p>
+        As one of the creators of this plane, Väinämöinen is able to send the party back to their own plane.
+        The party can keep their equipment.
+      </p>
+      <section-title name="Battle at the Gates" />
       <p>
         The grand battle between metsäläiset and the party and Väinämöinen. Loviatar, Joukahainen if alive,
         and metsäläinens will arrive to the Lake Iänlampi to release Perkele from its prison. The party has
         prepared with Väinämöinen and should be ready for a big battle.
       </p>
-
       <part-title name="Resources" />
       <section-title name="Monsters" />
       <monster v-for="monster in monsters" v-bind="monster" :key="monster.name" />
@@ -1659,7 +1700,6 @@
       Päivälapsi, Rahikka, Rautio (Blacksmith), Sarijoutsi, Sotijalo, Talvikki, Tapatora, Toivelempi,
       Toivikki, Unaja, Unti, Utujoutsi, Valta, Valtari, Vihas, Vihavaino, Viljakka, Äijö, Äiniö.
     </campaign>
-    <overlay :party="true" :tableOfContents="true" :dice="true" />
   </div>
 </template>
 
