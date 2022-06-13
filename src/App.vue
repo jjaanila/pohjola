@@ -930,7 +930,7 @@
       <encounter
         :enemies="[
           { name: 'Northern Druid', quantity: 1 },
-          { name: 'Death Dog', quantity: 5 },
+          { name: 'Death Dog', quantity: 10 },
         ]"
       />
       are hiding next to the road. When the party arrives the Druid starts to speak and the dogs start to
@@ -1332,7 +1332,8 @@
         feed", "sparrows", "crows", "Birds come in flocks", "terns", "eat every seed", "mallards", "greedy
         step out", "on the wings of an eagle", "even owls", "on the shoulders of giants", "into the nest of
         darkness" "Parvina pääskyset", "astuvat ahneet aitoistaan", "kottaraiset kovanokat", "viljan vievät,
-        ehtoolle elämän", "jäljessä jättiläisten", "kurjetkin", "kotkain kainalossa", "piilosta pesään pimeän"
+        ehtoolle elämän", "jäljessä jättiläisten", "kurjetkin", "kotkain kainalossa", "piilosta pesään
+        Perkeleen"
       </read-aloud>
       <p>
         Mielipäivä is repeating poems he heard while being tortured in Kuurankaru, the "capital" of
@@ -1428,10 +1429,11 @@
       Another source of income for metsäläiset is the river toll station in the northern part of Viper's Rend,
       south of Kuurankaru. The guards there collect tolls from passing ships, usually ones delivering ores
       from the mountains in the north. Just passing the station costs 100gp without any load. Trying to pass
-      the station without paying and alerting the guards causes them to start pursuit with a rowing ship and X
-      <id-link name="Metsäläinen Soldier" type="monster" />. They can attach to the other ship by throwing
-      iron hooks with ropes attached. If the party is caught, they are suspected of spying and will be taken
-      prisoners and delivered to the dungeon of Kuurankaru.
+      the station without paying and alerting the guards causes them to start pursuit with a rowing ship. They
+      can attach to the other ship by throwing iron hooks with ropes attached. If the party is caught, they
+      are suspected of spying and will be taken prisoners and delivered to the dungeon of Kuurankaru.
+
+      <encounter :enemies="[{ name: 'Metsäläinen Soldier', quantity: 3 }]" />
 
       <sub-area-title name="Barracks complex" />
       <p>
@@ -1654,6 +1656,7 @@
         a DC 20 strength check. If the piece is ripped off, the golem dies. If the Golem is too hard for the
         party, maybe Joukahainen arrives at the right moment and stirs the pot?
       </p>
+      <Encounter :enemies="[{ name: 'Golem Guardian', quantity: 1 }]" />
       <p>
         If the party manages to get the part of Tursaansydän in their hands, the spell that protected the
         dungeon dispells and the gods are free to interfere in the fight. Ahti may flood the tunnel and Tapio

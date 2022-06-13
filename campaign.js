@@ -117,7 +117,7 @@ module.exports = Object.freeze({
       type: 'giant',
       alignment: 'chaotic evil',
       armorClass: 15,
-      armor: '(Natural armor)',
+      armor: 'Natural armor',
       hitPoints: { throws: 8, sides: 10, constant: 40 },
       speedFt: 30,
       strength: 18,
@@ -563,7 +563,7 @@ module.exports = Object.freeze({
       type: 'monstrosity',
       alignment: 'unaligned',
       armorClass: 14,
-      armor: '(Natural armor)',
+      armor: 'Natural armor',
       hitPoints: { throws: 22, sides: 8, constant: 22 },
       speedFt: 40,
       strength: 13,
@@ -609,7 +609,7 @@ module.exports = Object.freeze({
       type: 'dragon',
       alignment: 'lawful good',
       armorClass: 18,
-      armor: '(Natural armor)',
+      armor: 'Natural armor',
       hitPoints: { throws: 17, sides: 10, constant: 85 },
       speedFt: 40,
       strength: 23,
@@ -725,7 +725,7 @@ module.exports = Object.freeze({
       type: 'humanoid (any race)',
       alignment: 'neutral evil',
       armorClass: 11,
-      armor: '(16 with Bark Skin)',
+      armor: '16 with Bark Skin',
       hitPoints: { throws: 5, sides: 18, constant: 5 },
       speedFt: 30,
       strength: 10,
@@ -909,19 +909,48 @@ module.exports = Object.freeze({
       alignment: 'lawful good',
       armorClass: 18,
       armor: '',
-      hitPoints: { throws: 10, sides: 20, constant: 0 },
-      speedFt: 25,
-      strength: 9,
-      dexterity: 8,
-      constitution: 13,
-      intelligence: 15,
-      wisdom: 17,
-      charisma: 15,
+      hitPoints: { throws: 18, sides: 8, constant: 18 },
+      speedFt: 30,
+      strength: 10,
+      dexterity: 14,
+      constitution: 12,
+      intelligence: 20,
+      wisdom: 20,
+      charisma: 16,
       senses: [],
-      languages: [],
-      challengeRating: 15,
-      passives: [],
-      actions: [],
+      languages: ['common', 'giant', 'northern'],
+      challengeRating: 13,
+      passives: [
+        {
+          name: 'Magic Resistance',
+          description: 'Väinämöinen has advantage on saving throws against spells and other magical effects.',
+        },
+        {
+          name: 'Spellcasting',
+          description: `Väinämöinen is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). Väinämöinen can cast disguise self and invisibility at will and has the following wizard spells prepared:
+Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp
+1st level (4 slots): detect magic, identify, mage armor*, magic missile
+2nd level (3 slots): detect thoughts, mirror image, misty step
+3rd level (3 slots): counterspell, fly, lightning bolt
+4th level (3 slots): banishment, fire shield, stoneskin*
+5th level (3 slots): cone of cold, scrying, wall of force
+6th level (1 slot): globe of invulnerability
+7th level (1 slot): teleport
+8th level (1 slot): mind blank*
+9th level (1 slot): time stop
+*Väinämöinen casts these spells on itself before combat.`,
+        },
+      ],
+      actions: [
+        {
+          name: 'Dagger',
+          type: 'melee',
+          toHit: 6,
+          reachFt: 5,
+          damageType: 'piercing',
+          damage: { throws: 1, sides: 4, constant: 2 },
+        },
+      ],
     },
     {
       name: 'Joukahainen',
@@ -931,18 +960,18 @@ module.exports = Object.freeze({
       type: 'humanoid (human)',
       alignment: 'neutral evil',
       armorClass: 12,
-      armor: '(15 with mage armor)',
-      hitPoints: { throws: 80, sides: 8, constant: 18 },
+      armor: '14 with mage armor',
+      hitPoints: { throws: 15, sides: 8, constant: 18 },
       speedFt: 30,
       strength: 10,
       dexterity: 14,
       constitution: 12,
-      intelligence: 20,
+      intelligence: 18,
       wisdom: 16,
       charisma: 15,
       senses: [],
       languages: ['common', 'giant', 'draconic', 'elvish', 'undercommon', 'infernal'],
-      challengeRating: 12,
+      challengeRating: 11,
       passives: [
         {
           name: 'Magic Resistance',
@@ -950,18 +979,17 @@ module.exports = Object.freeze({
         },
         {
           name: 'Spellcasting',
-          description:
-            'Joukahainen is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17,\
- +9 to hit with spell attacks). Joukahainen can cast disguise self and invisibility at will and has the following wizard spells prepared: • \
- Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp \
- • 1st level (4 slots): detect magic, identify, mage armor*, magic missile \
- • 2nd level (3 slots): detect thoughts, mirror image, misty step \
- • 3rd level (3 slots): counterspell,fly, lightning bolt \
- • 4th level (3 slots): banishment, fire shield, stoneskin* \
- • 5th level (3 slots): cone of cold, scrying, wall of force \
- • 6th level (1 slot): globe of invulnerability \
- • 7th level (1 slot): teleport • 8th level (1 slot): mind blank* \
- • 9th level (1 slot): time stop * Joukahainen casts these spells on itself before combat.',
+          description: `Joukahainen is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17,\
+ +9 to hit with spell attacks). Joukahainen can cast disguise self and invisibility at will and has the following wizard spells prepared: •
+ Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp
+ • 1st level (4 slots): detect magic, identify, mage armor*, magic missile
+ • 2nd level (3 slots): detect thoughts, mirror image, misty step
+ • 3rd level (3 slots): counterspell,fly, lightning bolt
+ • 4th level (3 slots): banishment, fire shield, stoneskin*
+ • 5th level (3 slots): cone of cold, scrying, wall of force
+ • 7th level (1 slot): teleport
+ • 8th level (1 slot): mind blank*
+ * Joukahainen casts these spells on itself before combat.`,
         },
       ],
       actions: [
@@ -988,22 +1016,107 @@ module.exports = Object.freeze({
       name: 'Perkele',
       size: 'gargantuan',
       type: 'god',
+      description: `God of chaos. More of a force of nature that takes a dark vaporous form. Its limbs, "kapes",
+are its reach in the world, materializing as smoke at times. Most of the time they are invisible and
+affect the minds of creatures and the environment in unexpected ways.`,
       alignment: 'chaotic evil',
       armorClass: 20,
       armor: '',
-      hitPoints: { throws: 10, sides: 20, constant: 0 },
-      speedFt: 25,
-      strength: 9,
-      dexterity: 8,
-      constitution: 13,
-      intelligence: 15,
-      wisdom: 17,
-      charisma: 15,
+      hitPoints: { throws: 20, sides: 20, constant: 0 },
+      speedFt: 50,
+      strength: 1,
+      dexterity: 20,
+      constitution: 20,
+      intelligence: 20,
+      wisdom: 20,
+      charisma: 10,
       senses: [],
       languages: [],
       challengeRating: 20,
       passives: [],
       actions: [],
+    },
+    {
+      name: 'Adult White Dragon',
+      size: 'Huge',
+      type: 'dragon (female)',
+      description: `Loviatar has gotten a soul of a dragon in her hands and possesses the power to transform into it. Although losing control of herself, she plans to use her ally in the great battle.`,
+      alignment: 'chaotic evil',
+      armorClass: 18,
+      armor: 'natural armor',
+      hitPoints: { throws: 16, sides: 12, constant: 96 },
+      speedFt: 40,
+      strength: 22,
+      dexterity: 10,
+      constitution: 22,
+      intelligence: 8,
+      wisdom: 12,
+      charisma: 12,
+      senses: [
+        { name: 'darkvision', value: 120 },
+        { name: 'blindsight', value: 60 },
+      ],
+      skills: [
+        { name: 'Perception', modifier: 11 },
+        { name: 'stealth', modifier: 5 },
+      ],
+      savingThrows: ['Dex +5', 'Con +11', 'Wis +6', 'Cha +6'],
+      damageImmunities: ['cold'],
+      languages: ['common', 'draconic'],
+      challengeRating: 13,
+      passives: [
+        {
+          name: 'Ice Walk',
+          description:
+            "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement",
+        },
+        {
+          name: 'Legendary Resistance (3/Day)',
+          description: 'If the dragon fails a saving throw, it can choose to succeed instead.',
+        },
+      ],
+      actions: [
+        {
+          name: 'Multiattack',
+          description:
+            'The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.',
+        },
+        {
+          name: 'Bite',
+          type: 'melee',
+          toHit: 11,
+          reachFt: 10,
+          damageType: 'cold',
+          damage: { throws: 2, sides: 10, constant: 6 },
+          extra: 'plus 4 cold damage.',
+        },
+        {
+          name: 'Claw',
+          type: 'melee',
+          toHit: 11,
+          reachFt: 5,
+          damageType: 'slashing',
+          damage: { throws: 2, sides: 6, constant: 6 },
+        },
+        {
+          name: 'Tail',
+          type: 'melee',
+          toHit: 11,
+          reachFt: 15,
+          damageType: 'bludgeoning',
+          damage: { throws: 2, sides: 8, constant: 6 },
+        },
+        {
+          name: 'Frightful Presence',
+          description:
+            "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+        },
+        {
+          name: 'Cold Breath (Recharge 5–6)',
+          description:
+            'The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.',
+        },
+      ],
     },
     {
       name: 'Soldier of the Sword',
@@ -1307,7 +1420,7 @@ module.exports = Object.freeze({
       type: 'humanoid (male elf)',
       alignment: 'lawful evil',
       armorClass: 12,
-      armor: '(15 with Mage armor)',
+      armor: '15 with Mage armor',
       hitPoints: { throws: 7, sides: 8, constant: 0 },
       speedFt: 30,
       strength: 9,
@@ -1402,7 +1515,7 @@ module.exports = Object.freeze({
       type: 'humanoid (female elf)',
       alignment: 'chaotic good',
       armorClass: 12,
-      armor: '(15 with Mage armor)',
+      armor: '15 with Mage armor',
       hitPoints: { throws: 7, sides: 8, constant: 0 },
       speedFt: 30,
       strength: 9,
@@ -1901,6 +2014,67 @@ module.exports = Object.freeze({
           name: 'Darkness Aura (1/day)',
           description:
             "A 15-foot radius of magical darkness extends out from the darkmantle, moves with it, and spreads around corners. The darkness lasts as long as the darkmantle maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can't penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled.",
+        },
+      ],
+    },
+    {
+      name: 'Loviatar',
+      description:
+        'Leader of metsäläinens and descendant of Louhi, the creator of Pohjola. A beautiful young lady with black hair and ice blue eyes.',
+      size: 'medium',
+      type: 'humanoid (human)',
+      alignment: 'neutral evil',
+      armorClass: 12,
+      armor: '15 with mage armor',
+      hitPoints: { throws: 80, sides: 8, constant: 18 },
+      speedFt: 30,
+      strength: 10,
+      dexterity: 14,
+      constitution: 12,
+      intelligence: 20,
+      wisdom: 16,
+      charisma: 15,
+      senses: [],
+      languages: ['common', 'giant', 'draconic', 'elvish', 'undercommon', 'infernal'],
+      challengeRating: 12,
+      passives: [
+        {
+          name: 'Magic Resistance',
+          description: 'Loviatar has advantage on saving throws against spells and other magical effects.',
+        },
+        {
+          name: 'Spellcasting',
+          description: `Loviatar is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17,\
+ +9 to hit with spell attacks). Loviatar can cast disguise self and invisibility at will and has the following wizard spells prepared: •
+ Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp
+ • 1st level (4 slots): detect magic, identify, mage armor*, magic missile
+ • 2nd level (3 slots): detect thoughts, mirror image, misty step
+ • 3rd level (3 slots): counterspell,fly, lightning bolt
+ • 4th level (3 slots): banishment, fire shield, stoneskin*
+ • 5th level (3 slots): cone of cold, scrying, wall of force
+ • 6th level (1 slot): globe of invulnerability
+ • 7th level (1 slot): teleport
+ • 8th level (1 slot): mind blank*
+ • 8th level (1 slot): transform to Adult White Dragon`,
+        },
+      ],
+      actions: [
+        {
+          name: 'Dagger',
+          type: 'melee',
+          toHit: 6,
+          reachFt: 5,
+          damageType: 'piercing',
+          damage: { throws: 1, sides: 4, constant: 2 },
+        },
+        {
+          name: 'Throwing Dagger',
+          type: 'ranged',
+          toHit: 6,
+          rangeFt: 20,
+          disadvantageRangeFt: 60,
+          damageType: 'piercing',
+          damage: { throws: 1, sides: 4, constant: 2 },
         },
       ],
     },
