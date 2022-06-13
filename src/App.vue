@@ -1580,17 +1580,18 @@
         The location of the tomb is known to archivists of the Sword. The party will also find the location at
         Loviatar's hut in Kuurankaru. When arriving at the presumed location of the tomb, the party can't see
         any constructions. They will however see smoke rising from the woods. A large part-giant man
-        <id-link id="monster-commoner" name="Suur-Äijö" /> sits by the fire. He is alarmed at first by the
-        visitors and will become angry if the party doesn't know where they are standing. He will angrily
-        explain that they are currently on the hand of Antero and they should show some respect. He will point
-        out five bulges on the ground that are 10m apart and explains that they are presumably the finger tips
-        of an ancient giant Antero Vipunen. He is part-giant and the effect of his ancient genes can be seen
-        in his body. Some of his body parts are disproportionately sized compared to others, especially his
-        hands. He considers Antero as a god, just like his ancestors have done and is on a pilgrimage to this
-        holy site. Äijö claims that he can hear Antero some times. His knowledge of the language of giants
-        isn't enough for him to understand much, but he is worried about his god. Antero has been repeating
-        the word "chaos" with a worrying voice recently.
+        <id-link name="Suur-Äijö" type="monster" /> sits by the fire. He is alarmed at first by the visitors
+        and will become angry if the party doesn't know where they are standing. He will angrily explain that
+        they are currently on the hand of Antero and they should show some respect. He will point out five
+        bulges on the ground that are 10m apart and explains that they are presumably the finger tips of an
+        ancient giant Antero Vipunen. He is part-giant and the effect of his ancient genes can be seen in his
+        body. Some of his body parts are disproportionately sized compared to others, especially his hands. He
+        considers Antero as a god, just like his ancestors have done and is on a pilgrimage to this holy site.
+        Äijö claims that he can hear Antero some times. His knowledge of the language of giants isn't enough
+        for him to understand much, but he is worried about his god. Antero has been repeating the word
+        "chaos" with a worrying voice recently.
       </p>
+      <Encounter :enemies="[{ name: 'Suur-Äijö', quantity: 1 }]" />
       <p>
         Äijö can lead the party to other body parts of Antero. Above his heart, they will find an empty deep
         hole on the ground. Clearly metsäläiset have already taken the part of Tursaansydän. If the party has
