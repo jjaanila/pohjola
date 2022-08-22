@@ -902,11 +902,17 @@ module.exports = Object.freeze({
     },
     {
       name: 'Väinämöinen',
-      description:
-        'Väinämöinen plays a key role in many of the songs and poems of Finnish mythology. He is considered a wise man and one of the best poem singers of all times. He has two brothers, the young skinny Laplander Joukahainen and Ilmarinen, the eternal blacksmith. They are sons of Ilmatar, the goddess of air. The father of the three is unknown. Väinämöinen guards the prison of Perkele at lake Iänlampi.',
+      description: `Väinämöinen plays a key role in many of the songs and poems of Finnish mythology.
+He is an old hunching man with a large gray beard and long silver hair.
+He is considered a wise man and one of the best poem singers of all times. He has two brothers,
+the young skinny Laplander Joukahainen and Ilmarinen, the eternal blacksmith. They are sons of
+Ilmatar, the goddess of air. The father of the three is unknown. Väinämöinen guards the prison
+of Perkele at lake Iänlampi.
+In battle, Väinämöinen strengthens himself with magic and fights with a straight back and proud posture.
+His iconic magical artifact is a string instrument "kantele" made of a large pike's jaw bone.`,
       size: 'medium',
       type: 'humanoid (human)',
-      alignment: 'lawful good',
+      alignment: 'neutral good',
       armorClass: 18,
       armor: '',
       hitPoints: { throws: 18, sides: 8, constant: 18 },
@@ -1016,9 +1022,10 @@ Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking gras
       name: 'Perkele',
       size: 'gargantuan',
       type: 'god',
-      description: `God of chaos. More of a force of nature that takes a dark vaporous form. Its limbs, "kapes",
-are its reach in the world, materializing as smoke at times. Most of the time they are invisible and
-affect the minds of creatures and the environment in unexpected ways.`,
+      description: `A mote of chaos. More of a force of nature that takes a dark vaporous form. Its limbs, "kapes",
+are its reach in the world, materializing usually as black swirling smoke. Most of the time they are invisible and
+affect the minds of creatures and the environment in unexpected ways. Originally creature of Limbo that Louhi brought
+to Pohjola as an experiment. After kalevans inhabitated Pohjola, Väinämöinen imprisoned Perkele into a jail on the bottom of Lake Sotkalampi (old name Lake Iänlampi).`,
       alignment: 'chaotic evil',
       armorClass: 20,
       armor: '',

@@ -118,14 +118,14 @@
       and selling some grain in exchange. During the centuries, many people sought wisdom from the elders of
       Pohjola and Kaleva. Witches commonly visited Louhi to answer their questions. Väinämöinen was also
       visited but he has a more important mission than seeing fortunes or helping with mortal problems. Soon
-      after the invasion, he had decided to prison the god of chaos, Perkele. Perkele and its demons, kapes,
+      after the invasion, he had decided to prison a mote of chaos, Perkele. Perkele and its "limbs", kapes,
       were a daily source of havoc and misery in Pohjola, as they tried to interrupt settlers from organizing
       and building their new communities. Demon raids were common and in the end, kapes "ate the moon" by
-      concealing it with a spell and it was common belief was that sun would be next target. Väinämöinen
-      wanted to do one more favor for his people. With the help of his brother Ilmarinen and the gods of
-      Pohjola, he managed to imprison Perkele under lake Iänlampi. The jail was shut with magical key called
-      Tursaansydän, that is a large amethyst cut into shape of four tangled arrows. This key was split into
-      four pieces that were hidden in Pohjola. This was done as insurance if Perkele would be needed once
+      concealing it with their magic and it was common belief was that sun would be the next target.
+      Väinämöinen wanted to do one more favor for his people. With the help of his brother Ilmarinen and the
+      gods of Pohjola, he managed to imprison Perkele under lake Iänlampi. The jail was shut with magical key
+      called Tursaansydän, that is a large amethyst cut into shape of four tangled arrows. This key was split
+      into four pieces that were hidden in Pohjola. This was done as insurance if Perkele would be needed once
       again for some yet unknown reason. A spell protects the pieces. They can open the cell only when joined
       to the original shape, but the key also can only be destroyed when it is whole.
 
@@ -1637,12 +1637,13 @@
       </p>
       <p>
         The party arrives to a room with a single open stone doorway. A message "Name me and so ye shall break
-        me." is written on top of it with blood. The floor of next room is full of rocks, branches so stealth
-        checks will have a disadvantage. On the other side is a clean patch of floor in front of a new
-        doorway. If a party member can make it to the other side without making a sound, nothing happens. If
-        the party makes a sound in the room, the walls will implode and bury the people inside if they fail a
-        DC 15 acrobatics check. The implosion will cause 6d10 damage minus their AC to the affected characters
-        and will delay the party significantly because they have to clear the rubble.
+        me" ,"Nimeä minut ja niin rikot minut", is written on top of it with blood. The floor of next room is
+        full of rocks, branches so stealth checks will have a disadvantage. On the other side is a clean patch
+        of floor in front of a new doorway. If a party member can make it to the other side without making a
+        sound, nothing happens. If the party makes a sound in the room, the walls will implode and bury the
+        people inside if they fail a DC 15 acrobatics check. The implosion will cause 6d10 damage minus their
+        AC to the affected characters and will delay the party significantly because they have to clear the
+        rubble.
       </p>
       <p>
         The second room is a small one with a single doorway, but the doorway is shut with a stone wall. On
@@ -1675,18 +1676,37 @@
         island in the middle. They see no-one and the nature is eerily quiet. The lake has little to no
         vegetation and there are no birds or other animals. After a short while, an old man
         <id-link name="Väinämöinen" type="monster" /> emerges from the water. He walks slowly to the party and
-        explains calmly how metsäläinens are close to their goal of releasing Perkele. Loviatar, the
-        descendant of Louhi doesn't understand what she is doing and has misunderstood her ancestor's will.
-        Väinämöinen's brother Joukahainen is still bitter and hungry for status of the greatest poet singer.
-        Joukahainen cares little about the consequences and Loviatar doesn't understand them. Väinämöinen is
-        unable to explain what chaos means, because it may lead to anything. The world of chaos is full of
-        what one can least expect. It fills the minds of creatures with confusion, breaks the natural cycles
-        and shakes the foundations of this world. "If I explain you what chaos is, it will be something
-        different when you experience it."
+        explains calmly how metsäläinens are close to their goal of releasing Perkele, a mote of chaos.
+        Loviatar, the descendant of Louhi doesn't understand what she is doing and has misunderstood her
+        ancestor's will. Väinämöinen's brother Joukahainen is still bitter and hungry for status of the
+        greatest poet singer. Joukahainen cares little about the consequences and Loviatar doesn't understand
+        them. Väinämöinen is unable to explain what chaos means, because it may lead to anything. The world of
+        chaos is full of what one can least expect. It fills the minds of creatures with confusion, breaks the
+        natural cycles and shakes the foundations of this world. "If I explain you what chaos is, it will be
+        something different when you experience it."
+      </p>
+      <p>
+        Väinämöinen knows that Loviatar is gathering her forces to attack the jail of Perkele. She is no match
+        for Väinämöinen but together with Joukahainen, metsäläiset and the creatures of the north, she is more
+        than capable to achieve her goal. Väinämöinen requests the party to gather forces from the nearby
+        villages and prepare for battle. He explains that the jail is on the bottom of the lake.
+      </p>
+      <p>
+        The party can be interrupted by a noise in the woods. It is Ilmari who has been observing them from
+        his hiding spot. He is intrigued by Väinämöinen and calls him grandpa, but they aren't really related.
+        Väinämöinen explains that he usually stays hidden from ordinary people, which has affected him
+        negatively. "Everybody wants to be seen sometimes". So he decided to occasionally show himself to the
+        boy, from distance however, as there wouldn't be harm in that. He also mentions vaguely an old event
+        that ended sadly and he regrets deeply that he didn't show himself back then. This is, of course,
+        about Otava Maaton, who wanted to leave Pohjola and had figured out the role of Väinämöinen, the
+        location of Lake Iänlampi, and desperately wanted to find him. He ended up drowning by accident while
+        trying to dive into the bottom of the lake. Väinämöinen watched it all.
       </p>
       <p>
         As one of the creators of this plane, Väinämöinen is able to send the party back to their own plane.
-        The party can keep their equipment.
+        The party can keep their equipment. If the party declines Väinämöinen's request for help, Väinämöinen
+        offers to return the party to their own plane. "This is not your fight or plane, even though destiny
+        so suggests."
       </p>
       <section-title name="Battle at the Gates" />
       <p>
