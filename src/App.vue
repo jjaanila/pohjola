@@ -62,6 +62,7 @@
       </p>
 
       <chapter-title name="Pohjola" />
+      <captioned-figure :path="pohjolaMap" caption="Map of Pohjola"/>
       Pohjola ("northern place") is a large island far north and is home to the mistress of Pohjola and a
       powerful witch Louhi, her beautiful daughter and their people. In the beginning, Pohjola was very
       barren, gray and lifeless place. However, a people was able to survive there with the help of their
@@ -100,7 +101,7 @@
 
       <section-title name="In Dungeons & Dragons context" />
 
-      I would say Pohjola is a demiplane created by Louhi. Väinämöinen also created his own called Kaleva, but
+      Pohjola is a demiplane created by Louhi. Väinämöinen also created his own called Kaleva, but
       it is not part of this adventure (yet). A large seas surrounds both and a portal connects the seas far
       out on the open sea where one can see no land.
 
@@ -1729,6 +1730,7 @@
 
 <script>
 import 'normalize.css'
+import pohjolaMap from './img/pohjola.jpg'
 import tursaansydan from './img/tursaansydan.png'
 import ukkoMonastery from './img/ukko_monastery.png'
 import paivatarShrine from './img/paivatar_shrine.png'
@@ -1739,6 +1741,7 @@ export default {
   name: 'app',
   data() {
     return {
+      pohjolaMap,
       tursaansydan,
       ukkoMonastery,
       paivatarShrine,
