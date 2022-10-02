@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/jjaanila/pohjola#readme",
   "devDependencies": {
-    "campaigner": "file:../campaigner/campaigner-2.0.0.tgz"
+    "campaigner": "^3.0.0"
   }
 }
