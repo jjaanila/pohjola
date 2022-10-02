@@ -203,7 +203,7 @@ module.exports = Object.freeze({
           toHit: 8,
           reachFt: 5,
           damageType: 'bludgeoning',
-          damage: { throws: 3, sides: 10, constant: 5 },
+          damage: { throws: 3, sides: 8, constant: 5 },
         },
         {
           name: 'Rock',
@@ -1047,7 +1047,7 @@ to Pohjola as an experiment. After kalevans inhabitated Pohjola, Väinämöinen 
       name: 'Adult White Dragon',
       size: 'Huge',
       type: 'dragon (female)',
-      description: `Loviatar has gotten a soul of a dragon in her hands and possesses the power to transform into it. Although losing control of herself, she plans to use her ally in the great battle.`,
+      description: `Loviatar has imprisoned the will of this beautiful creature using Tursaansydän. The purple crystal shines on its neck. If it is knocked off, the dragon is free of the spell and escapes.`,
       alignment: 'chaotic evil',
       armorClass: 18,
       armor: 'natural armor',
@@ -2119,13 +2119,12 @@ to Pohjola as an experiment. After kalevans inhabitated Pohjola, Väinämöinen 
  Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp
  • 1st level (4 slots): detect magic, identify, mage armor*, magic missile
  • 2nd level (3 slots): detect thoughts, mirror image, misty step
- • 3rd level (3 slots): counterspell,fly, lightning bolt
- • 4th level (3 slots): banishment, fire shield, stoneskin*
+ • 3rd level (3 slots): counterspell, fly, fireball
+ • 4th level (3 slots): ice storm, fire shield, stoneskin*
  • 5th level (3 slots): cone of cold, scrying, wall of force
  • 6th level (1 slot): globe of invulnerability
  • 7th level (1 slot): teleport
- • 8th level (1 slot): mind blank*
- • 8th level (1 slot): transform to Adult White Dragon`,
+ • 8th level (1 slot): mind blank*`,
         },
       ],
       actions: [
