@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "npx campaigner start",
+    "build": "npx campaigner build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,6 @@
   },
   "homepage": "https://github.com/jjaanila/pohjola#readme",
   "devDependencies": {
-    "campaigner": "^3.0.0"
+    "campaigner": "^3.0.2"
   }
 }
